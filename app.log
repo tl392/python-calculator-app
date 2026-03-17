@@ -24,3 +24,38 @@
 2026-03-17 03:20:04,092 | INFO | main | Completed request: GET /docs | status=200 | duration=0.0005s
 2026-03-17 03:20:04,225 | INFO | main | Incoming request: GET /openapi.json
 2026-03-17 03:20:04,232 | INFO | main | Completed request: GET /openapi.json | status=200 | duration=0.0072s
+2026-03-17 03:37:15,227 | INFO | main | Incoming request: GET /
+2026-03-17 03:37:15,231 | INFO | main | Home page requested
+2026-03-17 03:37:15,233 | INFO | main | Completed request: GET / | status=200 | duration=0.0069s
+2026-03-17 03:37:19,157 | INFO | main | Incoming request: POST /calculate
+2026-03-17 03:37:19,164 | INFO | main | Form calculation requested: a=1.0, b=1.0, operation=add
+2026-03-17 03:37:19,164 | INFO | app.operations | Add operation: 1.0 + 1.0 = 2.0
+2026-03-17 03:37:19,164 | INFO | main | Form calculation result: 2.0
+2026-03-17 03:37:19,165 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0085s
+2026-03-17 03:37:28,537 | INFO | main | Incoming request: POST /calculate
+2026-03-17 03:37:28,538 | INFO | main | Form calculation requested: a=1.2, b=2.3, operation=subtract
+2026-03-17 03:37:28,539 | INFO | app.operations | Subtract operation: 1.2 - 2.3 = -1.0999999999999999
+2026-03-17 03:37:28,539 | INFO | main | Form calculation result: -1.0999999999999999
+2026-03-17 03:37:28,539 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0018s
+2026-03-17 03:37:36,965 | INFO | main | Incoming request: POST /calculate
+2026-03-17 03:37:36,966 | INFO | main | Form calculation requested: a=1.22, b=2.34, operation=multiply
+2026-03-17 03:37:36,967 | INFO | app.operations | Multiply operation: 1.22 * 2.34 = 2.8547999999999996
+2026-03-17 03:37:36,967 | INFO | main | Form calculation result: 2.8547999999999996
+2026-03-17 03:37:36,967 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0021s
+2026-03-17 03:52:46,174 | INFO | main | Incoming request: POST /calculate
+2026-03-17 03:52:46,178 | INFO | main | Form calculation requested: a=10.3, b=10.45, operation=multiply
+2026-03-17 03:52:46,178 | INFO | app.operations | Multiply operation: 10.3 * 10.45 = 107.635
+2026-03-17 03:52:46,178 | INFO | main | Form calculation result: 107.635
+2026-03-17 03:52:46,180 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0069s
+2026-03-17 03:52:54,960 | INFO | main | Incoming request: GET /
+2026-03-17 03:52:54,960 | INFO | main | Home page requested
+2026-03-17 03:52:54,961 | INFO | main | Completed request: GET / | status=200 | duration=0.0011s
+2026-03-17 03:52:56,221 | INFO | main | Incoming request: POST /calculate
+2026-03-17 03:52:56,222 | INFO | main | Form calculation requested: a=10.4, b=2.4, operation=multiply
+2026-03-17 03:52:56,223 | INFO | app.operations | Multiply operation: 10.4 * 2.4 = 24.96
+2026-03-17 03:52:56,223 | INFO | main | Form calculation result: 24.96
+2026-03-17 03:52:56,223 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0021s
+2026-03-17 03:58:17,379 | INFO | main | Incoming request: GET /docs
+2026-03-17 03:58:17,380 | INFO | main | Completed request: GET /docs | status=200 | duration=0.0015s
+2026-03-17 03:58:17,562 | INFO | main | Incoming request: GET /openapi.json
+2026-03-17 03:58:17,563 | INFO | main | Completed request: GET /openapi.json | status=200 | duration=0.0012s
