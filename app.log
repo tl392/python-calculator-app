@@ -1,0 +1,26 @@
+2026-03-16 23:08:51,144 | INFO | main | FastAPI Calculator application started
+2026-03-16 23:08:51,148 | INFO | main | FastAPI Calculator application stopped
+2026-03-16 23:09:07,828 | INFO | main | FastAPI Calculator application started
+2026-03-16 23:09:13,218 | INFO | main | Incoming request: GET /
+2026-03-16 23:09:13,224 | INFO | main | Home page requested
+2026-03-16 23:09:13,229 | INFO | main | Completed request: GET / | status=200 | duration=0.0114s
+2026-03-16 23:09:18,459 | INFO | main | Incoming request: POST /calculate
+2026-03-16 23:09:18,463 | INFO | main | Form calculation requested: a=1.0, b=1.0, operation=add
+2026-03-16 23:09:18,464 | INFO | app.operations | Add operation: 1.0 + 1.0 = 2.0
+2026-03-16 23:09:18,464 | INFO | main | Form calculation result: 2.0
+2026-03-16 23:09:18,464 | INFO | main | Completed request: POST /calculate | status=200 | duration=0.0050s
+2026-03-16 23:09:29,344 | INFO | main | Incoming request: GET /docs
+2026-03-16 23:09:29,345 | INFO | main | Completed request: GET /docs | status=200 | duration=0.0007s
+2026-03-16 23:09:29,409 | INFO | main | Incoming request: GET /openapi.json
+2026-03-16 23:09:29,415 | INFO | main | Completed request: GET /openapi.json | status=200 | duration=0.0067s
+2026-03-16 23:10:36,397 | INFO | main | FastAPI Calculator application stopped
+2026-03-17 03:19:31,598 | INFO | main | FastAPI Calculator application started
+2026-03-17 03:20:00,693 | INFO | main | Incoming request: GET /
+2026-03-17 03:20:00,699 | INFO | main | Home page requested
+2026-03-17 03:20:00,704 | INFO | main | Completed request: GET / | status=200 | duration=0.0110s
+2026-03-17 03:20:00,832 | INFO | main | Incoming request: GET /favicon.ico
+2026-03-17 03:20:00,832 | INFO | main | Completed request: GET /favicon.ico | status=404 | duration=0.0007s
+2026-03-17 03:20:04,092 | INFO | main | Incoming request: GET /docs
+2026-03-17 03:20:04,092 | INFO | main | Completed request: GET /docs | status=200 | duration=0.0005s
+2026-03-17 03:20:04,225 | INFO | main | Incoming request: GET /openapi.json
+2026-03-17 03:20:04,232 | INFO | main | Completed request: GET /openapi.json | status=200 | duration=0.0072s
