@@ -17,7 +17,8 @@ This project is a **FastAPI-based calculator** with:
 ---
 
 ## Output
-Docker HUB Link - [Calculator App](https://hub.docker.com/r/ltaravindh392/calculator-app)
+Docker HUB Link - https://hub.docker.com/r/ltaravindh392/calculator-app
+
 Output Screeshot:
 ![HTML Output](screenshot/image.png)
 ![Screenshot of API Documentation](screenshot/image-5.png)
