@@ -19,12 +19,12 @@ This project is a **FastAPI-based calculator** with:
 ## Output
 Docker HUB Link - [Calculator App](https://hub.docker.com/r/ltaravindh392/calculator-app)
 Output Screeshot:
-![HTML Output](image.png)
-![Screenshot of API Documentation](image-5.png)
-![screenshot of terminal](image-1.png)
-![Screenshot of Github Actions](image-2.png)
-![Screenshot of detailed job info](image-3.png)
-![Screenshot of Container](image-4.png)
+![HTML Output](screenshot/image.png)
+![Screenshot of API Documentation](screenshot/image-5.png)
+![screenshot of terminal](screenshot/image-1.png)
+![Screenshot of Github Actions](screenshot/image-2.png)
+![Screenshot of detailed job info](screenshot/image-3.png)
+![Screenshot of Container](screenshot/image-4.png)
 ## Project Structure
 
 ```text
